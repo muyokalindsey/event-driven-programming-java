@@ -16,7 +16,7 @@ This assessment records implementation evidence from the submitted source and pr
 | 1 | Create a JavaFX window with controls | `App.java` creates a `Stage`, `Scene`, `VBox`, `Label`, and `Button`; the button updates the label. | 5 / 5 |
 | 2 | Arrange controls with JavaFX layouts and FXML | `LayoutDemo.java` demonstrates `HBox`, `VBox`, `GridPane`, and `BorderPane`; `login.fxml` defines the login view. | 5 / 5 |
 | 3 | Explain JavaFX architecture and threading | `App.java` reports the handler thread; the self-check below explains the JavaFX Application Thread and why long work should stay off it. | 5 / 5 |
-| 4 | Connect an FXML view to a controller | `login.fxml` names `LoginController`, injects controls with `fx:id`, and connects the button with `onAction`. | 5 / 5 |
+| 4 | Connect an FXML view to a controller | `login.fxml` names `LoginController`, injects controls with `fx:id`, and injects the button with `fx:id="loginButton"`, and connects it with `onAction`. | 5 / 5 |
 | 5 | Build a complete JavaFX dashboard | `DashboardApp.java` combines a top bar, navigation sidebar, content area, KPI cards, and working heading changes. | 5 / 5 |
 
 ---

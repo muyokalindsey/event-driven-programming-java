@@ -19,7 +19,7 @@
     <Label text="Sign in to your workspace" style="-fx-text-fill: #64748b;" />
     <TextField fx:id="usernameField" promptText="Username" maxWidth="300.0" />
     <PasswordField fx:id="passwordField" promptText="Password" maxWidth="300.0" />
-    <Button text="Sign in" onAction="#handleLoginButtonAction" maxWidth="300.0"
+    <Button fx:id="loginButton" text="Sign in" onAction="#handleLoginButtonAction" maxWidth="300.0"
             style="-fx-background-color: #2563eb; -fx-text-fill: white; -fx-font-weight: bold;" />
     <Label fx:id="feedbackLabel" wrapText="true" text="Use admin / password123 to try the demo."
            style="-fx-text-fill: #64748b;" />
