@@ -1,0 +1,18 @@
+# Compiled Java class files
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# NetBeans / IDE directories
+build/
+dist/
+nbproject/private/
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="14.0"
+      xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.LoginController"
+      style="-fx-background-color: #f8fafc; -fx-padding: 28;">
+    <padding>
+        <Insets top="28.0" right="32.0" bottom="28.0" left="32.0" />
+    </padding>
+    <Label text="Welcome back" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #172554;" />
+    <Label text="Sign in to your workspace" style="-fx-text-fill: #64748b;" />
+    <TextField fx:id="usernameField" promptText="Username" maxWidth="300.0" />
+    <PasswordField fx:id="passwordField" promptText="Password" maxWidth="300.0" />
+    <Button text="Sign in" onAction="#handleLoginButtonAction" maxWidth="300.0"
+            style="-fx-background-color: #2563eb; -fx-text-fill: white; -fx-font-weight: bold;" />
+    <Label fx:id="feedbackLabel" wrapText="true" text="Use admin / password123 to try the demo."
+           style="-fx-text-fill: #64748b;" />
+</VBox>
